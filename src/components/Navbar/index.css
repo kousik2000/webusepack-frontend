@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+AppBar {
+  border: 1px solid white;
+}
+.MuiPaper-root {
+  border: 1px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  
+  padding: 0px 30px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+.nav-button{
+  color:#2A9D8F;
+}
+.MuiButtonBase-root:hover {
+  background-color: #2A9D8F;
+}
+.avatar {
+  width: 30px;
+  height: 30px;
+  transition: all 0.1s ease;
+}
+@media (max-width: 720px) {
+  .navbar {
+    height: 60px;
+  }
+  .avatar {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (min-width: 952px) {
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+  .navbar {
+    padding: 0px 200px;
+  }
+}

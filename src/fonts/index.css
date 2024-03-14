@@ -1,0 +1,13 @@
+/* raleway.css */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./fonts/Raleway-Regular.ttf') format('truetype');
+    /* Add additional formats (e.g., woff, woff2) if you have those files */
+    /* src: url('./fonts/Raleway-Regular.ttf') format('truetype'),
+           url('./fonts/Raleway-Regular.woff') format('woff'),
+           url('./fonts/Raleway-Regular.woff2') format('woff2'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+  

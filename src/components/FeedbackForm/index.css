@@ -1,0 +1,14 @@
+.feedback-container{
+    padding: 20px;
+}
+.feedback-textarea{
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-weight: normal;
+}
